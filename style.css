@@ -1,0 +1,21 @@
+.main_form {
+width: 50%;
+margin: auto;
+padding: 1rem;
+background-color: #9CBC2C;
+border: 15px solid white;
+font-family: Arial, Helvetica, sans-serif;
+}
+body {
+background-color: black;
+}
+fieldset {
+border: none;
+}
+
+.green_form {
+border: 1px solid white;
+border-radius:5px;    
+background-color: #B9CF6A;
+padding: .5rem;
+}

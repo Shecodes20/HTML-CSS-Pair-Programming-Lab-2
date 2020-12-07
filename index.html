@@ -3,9 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="main_form">
+    <form action="index.html" method="post" class="">
+        
+        
+        <fieldset>
+          
+          <legend>Step 1: Your details</legend>
+          <div class="green_form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" placeholder="First and Last Name">
+          </div>
+         
+          <div class="green_form">
+            <label for="email">email:</label>
+            <input type="email" id="email" name="user_email" placeholder="email@domain.com">
+          </div>
+          
+          <div class="green_form">
+            <label for="Phone">Phone:</label>
+            <input type="Phone" id="Phone" name="user_phone" placeholder="Eg.  +4475000000000">
+         </div>
+          </fieldset>
+        
+          <fieldset>
+              <legend>Step 2 Delivery Address</legend>
+            <div class="green_form">
+                <label for="Address">Address:</label>
+                <textarea type="text" id="name" name="user_name" placeholder="First and Last Name"></textarea>
+            </div>
+       
+          
+            <div class="green_form">
+                <label for="post code">post code:</label>
+                <input type="post code" id="mail" name="post_code">
+             </div>
+           
+            <div class="green_form">
+                <label for="Phone">Phone:</label>
+                <input type="Phone" id="Phone" name="user_phone">
+
+            </div>
+       
+          </fieldset>
+
+
+          
+            <fieldset>
+                <legend>Step 3: Card type</legend>
+
+          <div class="green_form">
+                <input type="radio" name="card_type" id="visa">
+                <label for="visa" class="form-color">Visa</label>
+         
+                <input type="radio" name="card_type" id="amex">
+                <label for="amex" class="form-color">amex</label>
+             
+                <input type="radio" name="card_type" id="mastercard">
+                 <label for="mastercard" class="form-color">Mastercard</label><br>
+          </div> 
+          <div class="green_form">             
+            <label for="Card Number"> Card Number:</label>
+             <input type="text" id="name" name="user_name">
+          </div>  
+          <div class="green_form">
+             <label for="security code"> security code:</label>
+             <input type="text" id="name" name="user_name">
+          </div>  
+          <div class="green_form">
+             <label for="Name on Card"> Name on Card:</label>
+             <input type="text" id="name" name="user_name" placeholder="Exact Name as on the Card">            
+          </div>
+
+          <div>
+            <button type="submit">Buy it</button>
+
+          </div>
+            </fieldset> 
+            
+            
+        </form> 
+        </div>
 </body>
 </html>
