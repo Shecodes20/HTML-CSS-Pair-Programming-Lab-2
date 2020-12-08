@@ -9,6 +9,7 @@ legend {
     padding: .75rem 0;
     font-size: 20px;
 }
+
 .form {
     padding: 1rem;
 }
@@ -27,18 +28,6 @@ legend {
     justify-content: flex-start;
     align-items: center;
 }
-.flex-start{
-    align-items: flex-start;
-}
-.flex-column {
-    flex-direction: column;
-}
-#space-around{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 90%;
-}
 
 .mainForm {
     background-color: #9CBC2C;
@@ -49,6 +38,20 @@ legend {
     margin: 1rem auto;
     width: 50%;
 }
+
+.flex-start{
+    align-items: flex-start;
+}
+.flex-column {
+    flex-direction: column;
+}
+#space-around{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
 
 .textFieldStyle{
     margin:0 auto;
