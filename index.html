@@ -3,9 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Lab 2</h1>
+    <div class="mainForm">
+        <form action="index.html" method="post" class="form">
+            <fieldset class="fieldClass">
+              <legend>Step 1: Your details</legend>
+              <div class="formStyle">
+                <div class="formText">
+                    <label for="name">Name</label>
+                </div>
+                <input class="textFieldStyle" type="text" id="name" name="user_name" placeholder="First and Last Name">
+               </div>
+             
+              <div class="formStyle">
+                  <div class="formText">
+                    <label for="email">Email</label>
+                  </div>
+                 <input class="textFieldStyle" type="email" id="email" name="user_email" placeholder="email@domain.com">
+                </div>
+              
+              <div class="formStyle">
+                  <div class="formText">
+                    <label for="Phone">Phone</label>
+                  </div>
+                <input class="textFieldStyle" type="Phone" id="Phone" name="user_phone" placeholder="Eg.  +4475000000000">
+              </div>
+
+            </fieldset>
+            
+            <fieldset>
+                <legend>Step 2 Delivery Address</legend>
+                <div class="formStyle">
+                    <div class="formText">
+                        <label for="Address">Address</label>
+                    </div>
+                    <textarea class="textFieldStyle" type="text" id="name" name="user_name"></textarea>
+                </div>
+           
+              
+                <div class="formStyle">
+                    <div class="formText">
+                        <label for="post code">Post code</label>
+                    </div>
+                    <input class="textFieldStyle" type="post code" id="mail" name="post_code">
+                 </div>
+               
+                <div class="formStyle">
+                    <div class="formText">
+                        <label for="Phone">Phone</label>
+                    </div>
+                    <input class="textFieldStyle" type="Phone" id="Phone" name="user_phone">
+                </div>
+           
+              </fieldset>
+    
+    
+              <fieldset>
+                    <legend>Step 3: Card details</legend>
+   
+              <div class="formStyle">
+                <div class="formText">
+                    <label for="card_type"> Card Type</label>
+                </div> 
+                <div class="textFieldStyle">
+                    <input type="radio" name="card_type" id="visa">
+                    <label for="visa" class="form-color">Visa</label>
+             
+                    <input type="radio" name="card_type" id="amex">
+                    <label for="amex" class="form-color">amex</label>
+                 
+                    <input type="radio" name="card_type" id="mastercard">
+                     <label for="mastercard" class="form-color">Mastercard</label><br>
+
+                </div>
+              </div> 
+              <div class="formStyle">
+                  <div class="formText">
+                    <label for="Card Number"> Card Number</label>
+                  </div>             
+                 <input type="text" id="name" name="user_name" class="textFieldStyle">
+              </div>  
+              <div class="formStyle">
+                  <div class="formText">
+                    <label for="security code"> Security code</label>
+                  </div>
+                 <input type="text" id="name" name="user_name" class="textFieldStyle">
+              </div>  
+              <div class="formStyle">
+                  <div class="formText">
+                    <label for="Name on Card"> Name on Card</label>
+                  </div> 
+                 <input type="text" id="name" name="user_name" placeholder="Exact Name as on the Card" class="textFieldStyle">            
+              </div>
+    
+              <div>
+                <button type="submit">Buy it</button>
+              </div>
+                </fieldset> 
+                
+                
+            </form> 
+            </div>
 </body>
 </html>
