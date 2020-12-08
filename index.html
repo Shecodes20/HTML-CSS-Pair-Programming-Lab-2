@@ -37,10 +37,10 @@
             <fieldset>
                 <legend>Step 2 Delivery Address</legend>
                 <div class="formStyle">
-                    <div class="formText">
+                    <div class="formText flex-start">
                         <label for="Address">Address</label>
                     </div>
-                    <textarea class="textFieldStyle" type="text" id="name" name="user_name"></textarea>
+                    <textarea class="textFieldStyle" type="text" id="name" name="user_name" rows="5"></textarea>
                 </div>
            
               
@@ -64,20 +64,23 @@
               <fieldset>
                     <legend>Step 3: Card details</legend>
    
-              <div class="formStyle">
+              <div class="formStyle flex-column">
                 <div class="formText">
                     <label for="card_type"> Card Type</label>
                 </div> 
-                <div class="textFieldStyle">
-                    <input type="radio" name="card_type" id="visa">
-                    <label for="visa" class="form-color">Visa</label>
-             
-                    <input type="radio" name="card_type" id="amex">
-                    <label for="amex" class="form-color">amex</label>
-                 
-                    <input type="radio" name="card_type" id="mastercard">
-                     <label for="mastercard" class="form-color">Mastercard</label><br>
-
+                <div class="textFieldStyle" id="space-around">
+                    <div>
+                        <input type="radio" name="card_type" id="visa">
+                        <label for="visa" class="form-color">Visa</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="card_type" id="amex">
+                        <label for="amex" class="form-color">amex</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="card_type" id="mastercard">
+                        <label for="mastercard" class="form-color">Mastercard</label><br>
+                    </div>  
                 </div>
               </div> 
               <div class="formStyle">
@@ -99,8 +102,8 @@
                  <input type="text" id="name" name="user_name" placeholder="Exact Name as on the Card" class="textFieldStyle">            
               </div>
     
-              <div>
-                <button type="submit">Buy it</button>
+              <div class="submitButton">
+                <button type="submit" class="submitButton-button">BUY IT!</button>
               </div>
                 </fieldset> 
                 

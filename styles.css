@@ -5,6 +5,13 @@ body {
 fieldset {
     border: none;
 }
+legend {
+    padding: .75rem 0;
+    font-size: 20px;
+}
+.form {
+    padding: 1rem;
+}
 .formStyle {
     background-color: #B9CF6A; 
     border: 2px solid #DDE7B7;
@@ -20,6 +27,18 @@ fieldset {
     justify-content: flex-start;
     align-items: center;
 }
+.flex-start{
+    align-items: flex-start;
+}
+.flex-column {
+    flex-direction: column;
+}
+#space-around{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
 
 .mainForm {
     background-color: #9CBC2C;
@@ -33,8 +52,22 @@ fieldset {
 
 .textFieldStyle{
     margin:0 auto;
-    padding: .5rem 0;
+    padding: .5rem 1rem;
     width:50%;
     border: .5px solid #B9CF6A;
     border-radius: 5px;
+}
+
+/* Button Style */
+.submitButton {
+    display: flex;
+    justify-content: center;
+}
+.submitButton-button {
+    background-color: #384313;
+    margin: 1rem 0;
+    color: #E9EAE9;
+    padding: .5rem 2rem;
+    font-size: 1.25rem;
+    border-radius: 25px;
 }
