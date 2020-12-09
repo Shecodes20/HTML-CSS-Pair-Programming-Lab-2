@@ -1,29 +1,52 @@
-
-
 .main_form {
     width: 50%;
     margin: auto;
     padding: 1rem;
-    background-color: #9CBC2C;
+    background-color: #9cbc2c;
     border: 15px solid white;
     font-family: Georgia, "Times New Roman", Times, serif serif;
-}
-body {
+  }
+  body {
     background-color: black;
-}
-fieldset {
+  }
+  fieldset {
     border: none;
-}
-
-.green_form {
+  }
+  .green_form {
+    display: flex;
+    justify-content: space-between;
     border: 1px solid white;
-    border-radius:5px;    
-    background-color: #B9CF6A;
-    padding: .5rem;
-}
-#name {
-border-radius: 5px;
-
-}
-
+    border-radius: 5px;
+    background-color: #b9cf6a;
+    padding: 0.5rem;
+    align-items: center;
+  }
+  #name {
+    border-radius: 5px;
+  }
+  label {
+    width: 4.5rem;
+  }
+  input {
+    margin: 0 auto;
+    width: 50%;
+  }
+  textarea {
+    margin: 0 auto;
+    text-align: center;
+    height: 10rem;
+    width: 50%;
+  }
+  .submit_button {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  button {
+    padding: 0.5rem 1rem;
+    /* border-corner rounding property */
+    border-radius: 1.5rem;
+    font-size: 1.25rem;
+    background-color: #384415;
+    color: white;
 
