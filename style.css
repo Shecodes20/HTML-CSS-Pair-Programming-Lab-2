@@ -25,15 +25,12 @@
   legend {
     font-size: 20px;
  }
-  .cardform{
-    font-size: 16px;
-
-  }
+ 
   #name, #email, #country, #Phone, #postcode {
     border-radius: 5px;
   }
   label {
-    width: 4.5rem;
+    width: 5rem;
   }
   input {
     margin: 0 auto;
@@ -51,6 +48,11 @@
     margin-left: 2px;
   }
 
+  .cardform {
+
+    font-size: 16px;
+
+  }
   /**button---------------*/
   .submit_button {
     display: flex;
@@ -62,7 +64,6 @@
 
   button {
     padding: 0.5rem 1rem;
-    /* border-corner rounding property */
     border-radius: 1.5rem;
     font-size: 1.25rem;
     background-color: #384415;
