@@ -5,6 +5,7 @@
     background-color: #9cbc2c;
     border: 15px solid white;
     font-family: Georgia, "Times New Roman", Times, serif serif;
+    border-radius: 5px;
   }
   body {
     background-color: black;
@@ -21,7 +22,14 @@
     padding: 0.5rem;
     align-items: center;
   }
-  #name {
+  legend {
+    font-size: 20px;
+ }
+  .cardform{
+    font-size: 16px;
+
+  }
+  #name, #email, #country, #Phone, #postcode {
     border-radius: 5px;
   }
   label {
@@ -37,11 +45,21 @@
     height: 10rem;
     width: 50%;
   }
+
+  #amex, #mastercard, #visa {
+
+    margin-left: 2px;
+  }
+
+  /**button---------------*/
   .submit_button {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
   }
+
+
+
   button {
     padding: 0.5rem 1rem;
     /* border-corner rounding property */
@@ -49,4 +67,4 @@
     font-size: 1.25rem;
     background-color: #384415;
     color: white;
-
+  }
