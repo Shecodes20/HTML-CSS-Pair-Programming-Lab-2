@@ -1,71 +1,105 @@
 .main_form {
-    width: 50%;
-    margin: auto;
-    padding: 1rem;
-    background-color: #9cbc2c;
-    border: 15px solid white;
-    font-family: Georgia, "Times New Roman", Times, serif serif;
-    border-radius: 5px;
-  }
-  body {
-    background-color: black;
-  }
-  fieldset {
-    border: none;
-  }
-  .green_form {
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid white;
-    border-radius: 5px;
-    background-color: #b9cf6a;
-    padding: 0.5rem;
-    align-items: center;
-  }
-  legend {
-    font-size: 20px;
- }
- 
-  #name, #email, #country, #Phone, #postcode {
-    border-radius: 5px;
-  }
-  label {
-    width: 5rem;
-  }
-  input {
-    margin: 0 auto;
-    width: 50%;
-  }
-  textarea {
-    margin: 0 auto;
-    text-align: center;
-    height: 10rem;
-    width: 50%;
-  }
+  width: 50%;
+  margin: auto;
+  padding: 1rem;
+  background-color: #9CBC2C;
+  border: 15px solid white;
+  font-family: Georgia, "Times New Roman", Times, serif serif;
+  border-radius: 5px;
+}
+body {
+  background-color: black;
+}
+fieldset {
+  border: none;
+}
+.green_form {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #B9CF6A;
+  padding: 0.5rem;
+  align-items: center;
+}
+legend {
+  font-size: 20px;
+}
+label {
+  width: 8rem;
+}
+input {
+  margin: 0 auto;
+  width: 50%;
+  padding: .40rem;
+  border-radius: 5px;
+  border-color: #B9CF6A;
+}
+textarea {
+  margin: 0 auto;
+  text-align: center;
+  height: 10rem;
+  width: 50%;
+}
+.address{
+margin-bottom: auto;
+width: 8rem;
+}
+#amex, #mastercard, #visa {
+  margin-left: 2px;
+  width: auto;
+}
+.flex {
+  display: flex;
+}
+.cardform {
+  font-size: 16px;
+}
+.column{
+  flex-direction: column;
+}
+.margin{
+  margin-right: auto;
+}
+.space-around{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.padding{
+padding: 0%;
+width: 30px;
+}
+.flex-column {
+  flex-direction: column;
+}
+/**button---------------*/
+.submit_button {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+  font-size: 1.25rem;
+  background-color: #384415;
+  color: white;
+}
 
-  #amex, #mastercard, #visa {
-
-    margin-left: 2px;
-  }
-
-  .cardform {
-
-    font-size: 16px;
-
-  }
-  /**button---------------*/
-  .submit_button {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-  }
 
 
 
-  button {
-    padding: 0.5rem 1rem;
-    border-radius: 1.5rem;
-    font-size: 1.25rem;
-    background-color: #384415;
-    color: white;
-  }
+
+
+
+
+
+
+
+
+
+
+
+

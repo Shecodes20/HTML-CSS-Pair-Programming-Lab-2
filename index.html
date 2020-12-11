@@ -41,8 +41,10 @@
         </fieldset>
         <fieldset>
           <legend>Step 2: Delivery Address</legend>
-          <div class="green_form">
-            <label for="Address">Address</label>
+          <div class="green_form flex">
+            <div class="address">
+              <label for="Address">Address</label>
+            </div>
             <textarea type="text" id="name" name="user_name"></textarea>
           </div>
           <div class="green_form">
@@ -56,14 +58,24 @@
         </fieldset>
         <fieldset>
           <legend>Step 3: Card details</legend>
-          <div class="green_form">
-            <legend class="cardform">Card type</legend>
-            <input type="radio" name="card_type" id="visa" />
-            <label for="visa">Visa</label>
-            <input type="radio" name="card_type" id="amex" />
-            <label for="amex">Amex</label>
-            <input type="radio" name="card_type" id="mastercard">
-            <label for="mastercard">Mastercard</label><br />
+          <div class="green_form flex-column">
+            <div class="margin">
+              <legend class="cardform">Card type</legend>
+            </div>
+            <div class="space-around">
+              <div class="flex">
+                <input type="radio" name="card_type" id="visa">
+               <label for="visa">Visa</label>
+              </div>
+              <div class="flex">
+                <input type="radio" name="card_type" id="amex">
+                <label for="amex">Amex</label>
+              </div>
+              <div class="flex">
+                <input  type="radio" name="card_type" id="mastercard">
+                <label for="mastercard">Mastercard</label>
+              </div>
+            </div>
           </div>
           <div class="green_form">
             <label for="cardnumber"> Card Number</label>
